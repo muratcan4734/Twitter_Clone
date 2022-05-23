@@ -1,0 +1,16 @@
+indexes:
+- kind: visit
+  ancestor: yes
+  properties:
+  - name: timestamp
+    direction: desc
+- kind: tweet
+  properties:
+  - name: email
+  - name: creation_date
+    direction: desc
+- kind: tweet
+  properties:
+  - name: content
+  - name: creation_date
+    direction: desc
